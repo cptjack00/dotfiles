@@ -1,0 +1,4 @@
+alsa_card.pci-0000:00:1f.3:input:analog-input-mic mute:0 volumes:2,0.158493,0.158493
+alsa_card.pci-0000:00:1f.3:output:analog-output-headphones mute:0 volumes:2,0.459717,0.459717
+alsa_card.pci-0000:00:1f.3:input:analog-input-internal-mic mute:0 volumes:2,0.158478,0.158478
+alsa_card.pci-0000:00:1f.3:output:analog-output-speaker mute:0 volumes:2,0.459732,0.459732

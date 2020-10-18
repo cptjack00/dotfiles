@@ -1,0 +1,15 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum
+
+[1]
+Description=Window settings for alacritty
+fullscreen=true
+fullscreenrule=2
+title=quang@kagglenewb:~
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[General]
+count=1

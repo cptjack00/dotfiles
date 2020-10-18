@@ -1,0 +1,11 @@
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1 XPosition=0
+eDP-1 YPosition=26
+splitterSizes=426,213
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/teams_1.3.00.25560_amd64.deb
+Name1[$e]=teams_1.3.00.25560_amd64.deb
