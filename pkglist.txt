@@ -86,10 +86,6 @@ gvfs-smb
 gwenview
 gzip
 htop
-i3-gaps
-i3blocks
-i3lock
-i3status
 illyria-wallpaper
 inetutils
 intel-ucode
@@ -105,11 +101,6 @@ kaccounts-providers
 kamera
 kate
 kcalc
-kde-gtk-config
-kdeconnect
-kdegraphics-thumbnailers
-kdenetwork-filesharing
-kdeplasma-addons
 keditbookmarks
 kernel-alive
 kfind
@@ -167,7 +158,6 @@ manjaro-documentation-en
 manjaro-firmware
 manjaro-hello
 manjaro-hotfixes
-manjaro-kde-settings
 manjaro-printer
 manjaro-pulse
 manjaro-release
@@ -290,7 +280,6 @@ tar
 terminus-font
 texinfo
 the_silver_searcher
-thunderbird
 timeshift
 tlp
 tmux
@@ -319,7 +308,6 @@ which
 wmctrl
 wpa_supplicant
 xdg-desktop-portal
-xdg-desktop-portal-kde
 xdg-user-dirs
 xdg-utils
 xf86-input-elographics
