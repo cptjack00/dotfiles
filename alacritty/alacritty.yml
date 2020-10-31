@@ -31,16 +31,16 @@ background_opacity: 0.9
 
 font:
   normal:
-    family: "Hack"
+    family: "Droid Sans Mono Slashed for Powerline"
     style: Regular
   bold:
-    family: "Hack"
+    family: "Droid Sans Mono Slashed for Powerline"
     style: Bold
   italic:
-    family: "Hack"
+    family: "Droid Sans Mono Slashed for Powerline"
     style: Italic
   bold_italic:
-    family: "Hack"
+    family: "Droid Sans Mono Slashed for Powerline"
     style: Bold Italic
 
   # Point size
@@ -107,7 +107,7 @@ window:
   # - none: neither borders nor title bar
   # - transparent: title bar, transparent background and title bar buttons
   # - buttonless: title bar, transparent background, but no title bar buttons
-  decorations: full
+  decorations: none
 
   # Startup Mode (changes require restart)
   #
