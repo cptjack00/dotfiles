@@ -1,0 +1,1 @@
+/home/quang/.fzf/shell/key-bindings.fish
