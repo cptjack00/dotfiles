@@ -1,2 +1,0 @@
-[2020-10-11 23:35:27.721] [sharedprocess] [info] main {"machineId":"e8ce9177df0844cca717e9fbf682b80298d9f0e0fadd843a3a0b0be6f4d0f66d","windowId":2}
-[2020-10-11 23:35:27.783] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/quang/.config/Code/User/snippets'
