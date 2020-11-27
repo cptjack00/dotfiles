@@ -40,6 +40,7 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
   source $HOME/.config/nvim/plug-config/gitgutter.vim
   source $HOME/.config/nvim/plug-config/git-messenger.vim
   source $HOME/.config/nvim/plug-config/closetags.vim
+  source $HOME/.config/nvim/plug-config/nerdtree.vim
   source $HOME/.config/nvim/plug-config/floaterm.vim
   " source $HOME/.config/nvim/plug-config/vista.vim
   source $HOME/.config/nvim/plug-config/xtabline.vim
@@ -54,7 +55,6 @@ source $HOME/.config/nvim/plug-config/quickscope.vim
   source $HOME/.config/nvim/plug-config/vim-airline.vim
   " source $HOME/.config/nvim/plug-config/vimspector.vim " Uncomment if you want to use Vimspector
   " source $HOME/.config/nvim/plug-config/ale.vim
-endif
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
