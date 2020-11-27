@@ -8,12 +8,14 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " Sonokai Theme
+    Plug 'sainnhe/sonokai'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast
-    Plug 'tpope/vim-speeddating'
+    " Plug 'tpope/vim-speeddating'
     " Convert binary, hex, etc..
-    Plug 'glts/vim-radical'
+    " Plug 'glts/vim-radical'
     " Repeat stuff
     Plug 'tpope/vim-repeat'
     " Text Navigation
@@ -23,11 +25,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
 
-  if exists('g:vscode')
-    " Easy motion for VSCode
-    Plug 'asvetliakov/vim-easymotion'
-    Plug 'machakann/vim-highlightedyank'
-  else
+  " if exists('g:vscode')
+  "   " Easy motion for VSCode
+  "   Plug 'asvetliakov/vim-easymotion'
+  "   Plug 'machakann/vim-highlightedyank'
+  " else
 
     " Sneak
     Plug 'justinmk/vim-sneak'
@@ -36,7 +38,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Files
     Plug 'tpope/vim-eunuch'
     " Have the file system follow you around
-    Plug 'airblade/vim-rooter'
+    " Plug 'airblade/vim-rooter'
     " auto set indent settings
     Plug 'tpope/vim-sleuth'
     " Better Syntax Support
@@ -48,8 +50,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
-    " Themes
-    Plug 'christianchiarulli/nvcode.vim'
     " Plug 'ChristianChiarulli/nv-code'
     " Plug 'kyazdani42/blue-moon'
     " Intellisense
@@ -71,16 +71,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Start Screen
     Plug 'mhinz/vim-startify'
     " Vista
-    Plug 'liuchengxu/vista.vim'
+    " Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
     " Zen mode
-    Plug 'junegunn/goyo.vim'
+    " Plug 'junegunn/goyo.vim'
     " Snippets
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
     " Interactive code
-    Plug 'metakirby5/codi.vim'
+    " Plug 'metakirby5/codi.vim'
     " Debugging
     " Plug 'puremourning/vimspector'
     " Better tabline
@@ -100,12 +100,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'skywind3000/asynctasks.vim'
     Plug 'skywind3000/asyncrun.vim'
     " Swap windows
-    Plug 'wesQ3/vim-windowswap'
+    " Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     " Easily Create Gists
-    Plug 'mattn/vim-gist'
-    Plug 'mattn/webapi-vim'
+    " Plug 'mattn/vim-gist'
+    " Plug 'mattn/webapi-vim'
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow brackets
@@ -114,11 +114,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " TODO make sure to add ale config before plugin
     " Plug 'dense-analysis/ale'
     " Better Whitespace
-    Plug 'ntpeters/vim-better-whitespace'
+    " Plug 'ntpeters/vim-better-whitespace'
     " Multiple Cursors
     " TODO add this back in change from C-n
     " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-    Plug 'moll/vim-bbye'
+    " Plug 'moll/vim-bbye'
     " Plug 'yuezk/vim-js'
     " Plug 'maxmellon/vim-jsx-pretty'
     " Plug 'jelera/vim-javascript-syntax'
@@ -152,10 +152,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'preservim/nerdcommenter'
     " Plug 'brooth/far.vim'
     " Plug 'atishay/far.vim'
-    Plug 'mhartington/oceanic-next'    
+    " Plug 'mhartington/oceanic-next'    
     Plug 'majutsushi/tagbar'
     Plug 'junegunn/fzf'
-    Plug 'jmcantrell/vim-virtualenv'
+    " Plug 'jmcantrell/vim-virtualenv'
     Plug 'edkolev/promptline.vim'
     Plug 'zefei/vim-wintabs'
     Plug 'zefei/vim-wintabs-powerline'
@@ -164,11 +164,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    Plug 'morhetz/gruvbox'
-    Plug 'hzchirs/vim-material'
-    Plug 'kaicataldo/material.vim'
+    " Plug 'morhetz/gruvbox'
+    " Plug 'hzchirs/vim-material'
+    " Plug 'kaicataldo/material.vim'
     " Plug 'cjrh/vim-conda'
-  endif
 
 call plug#end()
 
