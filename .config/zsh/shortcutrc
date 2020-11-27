@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+alias cfv="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim"		# vim/neovim config
+alias cfz="$EDITOR $HOME/.zshrc"						# zsh (shell) config
+alias cfa="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/zsh/aliasrc"		# aliases used by zsh (and potentially other shells)
+alias cac="${XDG_CACHE_HOME:-$HOME/.cache}"
+alias cf="${XDG_CONFIG_HOME:-$HOME/.config}"
+alias D="${XDG_DOWNLOAD_DIR:-$HOME/Downloads}"
+alias d="${XDG_DOCUMENTS_DIR:-$HOME/Documents}"
+alias dt="${XDG_DATA_HOME:-$HOME/.local/share}"
+alias mn="/mnt"
+alias sc="$HOME/.local/bin"
+alias src="$HOME/.local/src"
